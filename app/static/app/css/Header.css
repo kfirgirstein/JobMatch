@@ -1,0 +1,31 @@
+﻿
+.be-right-navbar ul > li > a {
+    text-decoration: none;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    background-color: transparent !important;
+    color: white !important;
+}
+.be-right-navbar ul > li > a:hover, .be-right-navbar ul > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #999 !important;
+}
+
+.noBorder {
+    border: 0px !important;
+    box-shadow: 0 0px 0  !important;
+    padding-top: 1px;
+}
+.be-content{
+    padding: 10px !important;
+}
+.splash-container.sign-up{
+    margin-top: 50px;
+}
+@media (max-width: 767.98px) {
+    .be-color-header .be-top-header .be-right-navbar .navbar-nav > li > a {
+        margin: 10px;
+    }
+}

@@ -1,0 +1,47 @@
+﻿{% extends "app/base.html" %}
+{% load staticfiles %}
+{% block content %} 
+           <div class="email-head">
+            <div class="email-head-title">Compose new message<span class="icon mdi mdi-edit"></span></div>
+          </div>
+          <div class="email-compose-fields">
+            <div class="to">
+              <div class="form-group row pt-0">
+                <label class="col-md-1 control-label">To:</label>
+                <div class="col-md-11">
+                  <select multiple="" class="tags">
+                    <option value="1" selected="">Yellow</option>
+                    <option value="2" selected="">Violet</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="to cc">
+              <div class="form-group row pt-2">
+                <label class="col-md-1 control-label">Cc</label>
+                <div class="col-md-11">
+                  <select multiple="" class="tags">
+                    <option value="1" selected="">Colorado</option>
+                    <option value="2" selected="">Arkansas</option>
+                    <option value="3" selected="">Nevada</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="subject">
+              <div class="form-group row pt-2">
+                <label class="col-md-1 control-label">Subject</label>
+                <div class="col-md-11">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="email editor">
+            <div id="email-editor"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-space"><i class="icon s7-mail"></i> Send</button>
+              <button type="button" class="btn btn-secondary btn-space"><i class="icon s7-close"></i> Cancel</button>
+            </div>
+          </div>
+{% endblock %}

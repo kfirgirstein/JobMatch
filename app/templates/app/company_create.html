@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+    {% load static %}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{ title }} - My Django Application</title>
+    <link rel="shortcut icon" href="{% static 'logo-fav.png' %}"/>
+    <link href="{% static 'app/css/Header.css' %}"  rel="stylesheet" type="text/css" />
+    <link href="{% static 'app/assets/lib/perfect-scrollbar/css/perfect-scrollbar.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'app/assets/lib/material-design-icons/css/material-design-iconic-font.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'app/assets/lib/select2/css/select2.css'%}" rel="stylesheet" />
+    <link href="{% static 'app/assets/lib/summernote/summernote-bs4.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'app/assets/css/app.css' %}"  rel="stylesheet" type="text/css" />
+
+</head>
+  <body ng-app="JobMatch">
+    <div class="be-wrapper be-collapsible-sidebar be-collapsible-sidebar-collapsed" ng-controller="CompanyController">
+      <nav class="navbar navbar-dark bg-dark navbar-expand fixed-top be-top-header">
+        <div class="container-fluid">
+          <div class="be-navbar-header" style="width:100px;">
+                <a href="{%url 'dashboard'%}" >
+                    <img class="pt-2" src="{% static 'app/images/logo.png' %}"/></a>   
+            <a href="#" class="be-toggle-left-sidebar">
+                        <span class="icon mdi mdi-menu"></span></a>
+          </div>
+          <div class="be-right-navbar  navbar-dark bg-dark  be-right-navbar-flex">
+              <div class="search-container">
+              <div class="input-group input-group-sm">
+                 <input type="text" name="search" ng-model="companyToSearch" placeholder="Search..." class="form-control search-input"><span class="input-group-btn">
+                  <button type="button" ng-click="searchCompany()" class="btn btn-primary"> <i class="icon mdi mdi-search"></i></button>
+                  </span>
+              </div>
+            </div>
+            <ul class="nav navbar-nav float-right be-user-nav">
+              <li class="nav-item dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><img  src="{% static 'app/assets/img/avatar.png' %}" alt="Avatar"><span class="user-name">{{user.username}}</span></a>
+                <div role="menu" class="dropdown-menu">     
+                  <div class="user-info">
+                    <div class="user-name">{{user.username}}</div>
+                    <div class="user-position online">{% if user.is_superuser%} Interviewer{%else%} Candidate{%endif%}</div>
+                  </div><a href="/profile/" class="dropdown-item">
+                      <span class="icon mdi mdi-face"></span> Account</a>
+                                          {% if user.is_superuser%}
+                  <a class="dropdown-item" href="/company/IBM/"><span class="icon mdi mdi-assignment"></span>Company</a>
+                    {%endif%}
+                      <a href="{% url 'logout' %}" ng-click="logout()" class="dropdown-item"><span class="icon mdi mdi-power"></span> Logout</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav float-right be-icons-nav">
+              <li class="nav-item dropdown">
+                  <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span class="icon mdi mdi-notifications"></span><span class="indicator"></span></a>
+                <ul class="dropdown-menu be-notifications">
+                  <li>
+                    <div class="title">Notifications<span class="badge badge-pill">3</span></div>
+                    <div class="list">
+                      <div class="be-scroller">
+                        <div class="content">
+                          <ul>
+                            <li class="notification notification-unread"><a href="#">
+                                <div class="image"><img src="{% static 'app/assets/img/avatar2.png' %}" alt="Avatar"></div>
+                                <div class="notification-info">
+                                  <div class="text"><span class="user-name">Jessica Caruso</span> accepted your invitation to join the team.</div><span class="date">2 min ago</span>
+                                </div></a></li>
+                            <li class="notification"><a href="#">
+                                <div class="image"><img src="{% static 'app/assets/img/avatar3.png' %}" alt="Avatar"></div>
+                                <div class="notification-info">
+                                  <div class="text"><span class="user-name">Joel King</span> is now following you</div><span class="date">2 days ago</span>
+                                </div></a></li>
+                            <li class="notification"><a href="#">
+                                <div class="image"><img src="{% static 'app/assets/img/avatar4.png' %}" alt="Avatar"></div>
+                                <div class="notification-info">
+                                  <div class="text"><span class="user-name">John Doe</span> is watching your main repository</div><span class="date">2 days ago</span>
+                                </div></a></li>
+                            <li class="notification"><a href="#">
+                                <div class="image"><img src="{% static 'app/assets/img/avatar5.png' %}" alt="Avatar"></div>
+                                <div class="notification-info"><span class="text"><span class="user-name">Emily Carter</span> is now following you</span><span class="date">5 days ago</span></div></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer"> <a href="#">View all notifications</a></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="be-left-sidebar">
+        <div class="left-sidebar"><a href="#" class="left-sidebar-toggle">Menu</a>
+          <div class="left-sidebar-spacer">
+            <div class="left-sidebar-scroll">
+              <div class="left-sidebar-content">
+                <ul class="sidebar-elements">
+                   <li class="divider">Menu</li>
+                  <li><a href="{% url 'dashboard' %}"><i class="icon mdi mdi-home"></i><span>Dashboard</span></a>
+                  </li>
+                  <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>Account</span></a>
+                      <ul class="sub-menu">
+                      <li><a href="{% url 'profile' %}">Profile</a></li>
+                                            <li><a href="{% url 'profile' %}">Profile</a></li>
+                           {% if user.is_superuser%}
+                      <li><a href="{% url 'copmany_progress' %}">Progress</a></li>
+                           {% else%}
+                      <li><a href="{% url 'user_progress' %}">Progress</a></li>
+                          {%endif%}
+                      </ul>
+                    </li>
+                    {% if user.is_superuser%}
+                  <li ><a href="/company/{{user.username}}/"><i class="icon mdi mdi-assignment"></i><span>Company</span></a>
+                    {%endif%}
+                  <li ><a href="#" data-toggle="modal" data-target="#search_dialog"><i class="icon mdi mdi-search"></i><span>Search</span></a>
+                  </li>
+                  <li class="parent"><a href="#"><i class="icon mdi mdi-inbox"></i><span>Email</span></a>
+                    <ul class="sub-menu">
+                      <li><a href="{% url 'email' %}">Inbox</a>
+                      </li>
+                      <li><a href="{% url 'email-read' %}">Email Detail</a>
+                      </li>
+                      <li><a href="{% url 'email-send' %}">Email Compose</a>
+                      </li>
+                    </ul>
+                  </li>
+                   <li ><a href="#"><i class="icon mdi  mdi-settings"></i><span>Settings</span></a>
+                  </li>
+                     <li class="divider">Online</li>
+                  <li ><a href="#"><i class="icon mdi  mdi-facebook text-primary"></i><span>Facebook</span></a>
+                  </li>
+                   <li ><a href="#"><i class="icon mdi mdi-google-plus text-danger"></i><span>Google</span></a>
+                  </li>
+                   <li ><a href="#"><i class="icon mdi  mdi-github-alt text-dark"></i><span>GitHub</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+             <div class="be-content">
+                         <div class="main-content container-fluid">
+                      <div class="card card-border-color card-border-color-primary be-loading" ng-class="{true:'be-loading-active',  false:''}[is_loading]">
+                <div class="card-header card-header-divider text-center"><span>{{user.username}}</span><span class="card-subtitle">Parsley different validation types</span></div>
+                <div class="card-body">
+                    <form action="{% url 'dashboard' %}" class="form-horizontal" ng-submit="submit()" id="myform">
+                        {% csrf_token %}
+                        {% if form.errors %}
+                            {% for field in form %}
+                                {% for error in field.errors %}
+                                  <div role="alert" class="alert alert-danger alert-icon alert-icon-border alert-dismissible">
+                                <div class="icon"><span class="mdi mdi-close-circle-o"></span></div>
+                                <div class="message">
+                                  <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true" class="mdi mdi-close"></span></button>
+                                 {{ error|escape }}
+                                </div>
+                              </div>
+                                {% endfor %}
+                            {% endfor %}
+                            {% for error in form.non_field_errors %}
+                                  <div role="alert" class="alert alert-danger alert-icon alert-icon-border alert-dismissible">
+                                <div class="icon"><span class="mdi mdi-close-circle-o"></span></div>
+                                <div class="message">
+                                  <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true" class="mdi mdi-close"></span></button>
+                                 {{ error|escape }}
+                                </div>
+                              </div>
+                            {% endfor %}
+                        {% endif %}
+         <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right">Questions</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                   <button data-toggle="modal" data-target="#add_question" type="button" class="btn btn-space btn-block btn-success btn-xl">Add</button>    
+                      </div>
+             </div>
+                      <div  class="row justify-content-md-center">
+                          <question-blank ng-repeat="qw in CompanyQuestions"  class="col-12 col-sm-8 col-lg-8 mr-1 pl-0" selected-question="qw"></question-blank>
+                        </div>
+                        <div class="form-group row"> 
+                  <label class="col-12 col-sm-3 col-form-label text-sm-right">Threshold</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                      <div class="form-group">
+                   {{form.threshold}}
+                  </div>
+                           </div>
+             </div>
+                               <div class="form-group pt-2 offset-5">
+                   <button type="submit" class="btn btn-space btn-primary btn-xl">Submit</button>    
+
+                    <button type="reset" class="btn btn-space btn-secondary btn-xl">Reset</button>
+                  </div>
+                 <div class="be-spinner">
+                 <svg width="40px" height="40px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                   <circle fill="none" stroke-width="4" stroke-linecap="round" cx="33" cy="33" r="30" class="circle"></circle>
+                 </svg>
+                </div>
+           </form>
+
+                </div>
+              </div>
+     </div>
+               </div>
+           <div id="add_question" tabindex="-1" role="dialog" class="modal fade colored-header colored-header-primary">
+      <div class="modal-dialog">
+        <div class="modal-content">
+                <div class="modal-header modal-header-colored">
+                        <h3 class="modal-title">Add new question</h3>
+                        <button type="button" data-dismiss="modal" aria-hidden="true" class="close modal-close"><span class="mdi mdi-close">             </span></button>
+                      </div>
+          <div class="modal-body">
+            <div class="text-center">
+               <div class="form-group row">
+               <select class="select2" ng-change="showQuestionDetails()" ng-model="myChoice">
+                <option value="-1">New</option>
+                <option ng-repeat="q in data" ng-value="q.id" ng-bind="q.description"></option>
+                 </select>
+                   </div>
+
+                <div ng-show="!!selectedItem">
+                    <question-blank  selected-question="selectedItem"></question-blank>
+                    </div>
+                 <div ng-show="myChoice==-1">
+                            <div class="form-group row">
+                      <div class="col-6">
+                        <select class="form-control" ng-model="newItem.correct_answer">
+                       <option value="" disabled selected hidden>Correct answer</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                      </select>                      </div>
+                       <div class="col-6">
+                      <select class="form-control" ng-model="numberOfQuestion">
+                         <option value="" disabled selected hidden>Number of question</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                      </select>
+                       </div>
+                    </div>
+                     <div ng-show="!!newItem.correct_answer && !!numberOfQuestion">
+                    <div class="form-group row">
+                      <label for="inputDescription" class="col-12 col-sm-3 col-form-label text-sm-left">Description</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input id="inputDescription" type="text" ng-model="newItem.description" class="form-control">
+                      </div>
+                    </div>
+                <div class="form-group row pt-1 pb-1">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-left">Answers</label>
+                      <div class="col-12 col-sm-8 col-lg-6 form-check mt-2">
+                    <div class="input-group mb-3">
+                        <input  type="text" ng-model="newItem.option_a" class="form-control form-control-xs"
+                               ng-class="{true:'is-valid', false:''}[newItem.correct_answer==1]">
+                        </div>
+                    <div class="input-group mb-3">
+                        <input  type="text" ng-model="newItem.option_b" class="form-control form-control-xs"
+                               ng-class="{true:'is-valid',  false:''}[newItem.correct_answer==2]">
+                        </div>
+                    <div class="input-group mb-3" ng-if="numberOfQuestion>2">
+                        <input  type="text" ng-model="newItem.option_c" class="form-control form-control-xs"
+                               ng-class="{true:'is-valid',  false:''}[newItem.correct_answer==3]">
+                        </div>
+                    <div class="input-group mb-3" ng-if="numberOfQuestion>3">
+                        <input  type="text" ng-model="newItem.option_d" class="form-control form-control-xs"
+                               ng-class="{true:'is-valid',  false:''}[newItem.correct_answer==4]">
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                     </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+             <button type="button"  data-dismiss="modal"   class="btn btn-space btn-secondary">Cancel</button>
+                <button type="button" ng-click="AddToList()"class="btn btn-space btn-primary">Add</button>
+         </div>
+        </div>
+      </div>
+    </div>
+        <div id="search_dialog" tabindex="-1" role="dialog" class="modal fade colored-header colored-header-primary">
+      <div class="modal-dialog">
+        <div class="modal-content">
+                <div class="modal-header modal-header-colored">
+                        <h3 class="modal-title">Search Company</h3>
+                        <button type="button" data-dismiss="modal" aria-hidden="true" class="close modal-close"><span class="mdi mdi-close">             </span></button>
+                      </div>
+          <div class="modal-body">
+              <div class="input-group mb-3">
+                  <input type="text" placeholder="Search..." class="form-control" ng-model="companyToSearch">
+                      <div class="input-group-append">
+                        <button type="button" ng-click="searchCompany()"  class="btn btn-primary"><i class="icon mdi mdi-search"></i></button>
+                      </div>
+               </div>
+          </div>
+       </div>
+     </div>
+   </div>
+      </div>
+    
+    <script  src="{% static 'app/assets/lib/jquery/jquery.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/lib/angularjs/angular.min.js'%}" type="text/javascript"></script>
+<script src="{% static 'app/Script/Lib/linq.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js'%}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/js/app.js'%}" type="text/javascript"></script>
+    <script src="{%static 'app/assets/lib/jquery.nestable/jquery.nestable.js' %}" type="text/javascript"></script>
+    <script src="{%static 'app/assets/lib/datetimepicker/js/bootstrap-datetimepicker.min.js' %}" type="text/javascript"></script>
+    <script src="{%static 'app/assets/lib/select2/js/select2.min.js' %}" type="text/javascript"></script>
+    <script src="{%static 'app/assets/lib/select2/js/select2.full.min.js' %}" type="text/javascript"></script>
+    <script src="{%static 'app/assets/lib/bootstrap-slider/bootstrap-slider.min.js' %}" type="text/javascript"></script>
+    <script src="{%static 'app/assets/js/app-form-elements.js' %}" type="text/javascript"></script>
+<script src="{% static 'app/Script/JobMatch.module.js' %}" type="text/javascript"></script>
+<script src="{% static 'app/Script/Services/login.service.js' %}" type="text/javascript"></script>
+<script src="{% static 'app/Script/Controllers/company.controller..js'%}" type="text/javascript"></script>
+<script src="{% static 'app/Script/Directives/questions.directive.js'%}" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          App.init();
+        App.formElements();
+        
+      });
+    </script>
+
+  </body>
+</html>

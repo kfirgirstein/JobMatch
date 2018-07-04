@@ -1,0 +1,1512 @@
+Changing the weight vector for the 1 time:
+[54.99999988859405, 45.00000011140595]
+
+Changing the weight vector for the 2 time:
+[54.96892284726816, 45.03107715273183]
+
+Changing the weight vector for the 3 time:
+[54.95084586540334, 45.049154134596655]
+
+Changing the weight vector for the 4 time:
+[54.938173155912324, 45.06182684408767]
+
+Changing the weight vector for the 5 time:
+[54.92846317767342, 45.07153682232657]
+
+Changing the weight vector for the 6 time:
+[54.92061947346647, 45.07938052653353]
+
+Changing the weight vector for the 7 time:
+[54.91405618284197, 45.08594381715803]
+
+Changing the weight vector for the 8 time:
+[54.90842407886014, 45.09157592113986]
+
+Changing the weight vector for the 9 time:
+[54.90349856034984, 45.09650143965017]
+
+Changing the weight vector for the 10 time:
+[54.8991268431925, 45.10087315680751]
+
+Changing the weight vector for the 11 time:
+[54.89520040461005, 45.10479959538995]
+
+Changing the weight vector for the 12 time:
+[54.891639463221615, 45.108360536778385]
+
+Changing the weight vector for the 13 time:
+[54.88838369896384, 45.11161630103616]
+
+Changing the weight vector for the 14 time:
+[54.88538642983251, 45.1146135701675]
+
+Changing the weight vector for the 15 time:
+[54.882610809445474, 45.11738919055452]
+
+Changing the weight vector for the 16 time:
+[54.88002725977476, 45.11997274022524]
+
+Changing the weight vector for the 17 time:
+[54.877611687738856, 45.12238831226114]
+
+Changing the weight vector for the 18 time:
+[54.875344215490834, 45.124655784509166]
+
+Changing the weight vector for the 19 time:
+[54.873208256847924, 45.126791743152076]
+
+Changing the weight vector for the 20 time:
+[54.87118983270466, 45.128810167295335]
+
+Changing the weight vector for the 21 time:
+[54.869277055025556, 45.130722944974444]
+
+Changing the weight vector for the 22 time:
+[54.86745973204579, 45.132540267954205]
+
+Changing the weight vector for the 23 time:
+[54.8657290621219, 45.1342709378781]
+
+Changing the weight vector for the 24 time:
+[54.864077393425404, 45.13592260657459]
+
+Changing the weight vector for the 25 time:
+[54.86249803322598, 45.13750196677402]
+
+Changing the weight vector for the 26 time:
+[54.860985094999485, 45.13901490500052]
+
+Changing the weight vector for the 27 time:
+[54.85953337472332, 45.14046662527668]
+
+Changing the weight vector for the 28 time:
+[54.858138249934754, 45.14186175006525]
+
+Changing the weight vector for the 29 time:
+[54.85679559671628, 45.143204403283725]
+
+Changing the weight vector for the 30 time:
+[54.85550172092801, 45.14449827907199]
+
+Changing the weight vector for the 31 time:
+[54.854253300857415, 45.145746699142585]
+
+Changing the weight vector for the 32 time:
+[54.85304733909052, 45.14695266090947]
+
+Changing the weight vector for the 33 time:
+[54.85188112188521, 45.148118878114786]
+
+Changing the weight vector for the 34 time:
+[54.850752184689156, 45.14924781531085]
+
+Changing the weight vector for the 35 time:
+[54.84965828272289, 45.1503417172771]
+
+Changing the weight vector for the 36 time:
+[54.84859736576288, 45.15140263423712]
+
+Changing the weight vector for the 37 time:
+[54.84756755642664, 45.15243244357336]
+
+Changing the weight vector for the 38 time:
+[54.84656713139391, 45.153432868606096]
+
+Changing the weight vector for the 39 time:
+[54.84559450510088, 45.15440549489913]
+
+Changing the weight vector for the 40 time:
+[54.844648215527904, 45.15535178447209]
+
+Changing the weight vector for the 41 time:
+[54.84372691176709, 45.1562730882329]
+
+Changing the weight vector for the 42 time:
+[54.84282934310932, 45.157170656890685]
+
+Changing the weight vector for the 43 time:
+[54.8419543494339, 45.158045650566095]
+
+Changing the weight vector for the 44 time:
+[54.84110085271914, 45.15889914728086]
+
+Changing the weight vector for the 45 time:
+[54.84026784952075, 45.15973215047926]
+
+Changing the weight vector for the 46 time:
+[54.839454404289135, 45.160545595710865]
+
+Changing the weight vector for the 47 time:
+[54.838659643415994, 45.161340356584006]
+
+Changing the weight vector for the 48 time:
+[54.837882749916936, 45.16211725008307]
+
+Changing the weight vector for the 49 time:
+[54.83712295867058, 45.16287704132942]
+
+Changing the weight vector for the 50 time:
+[54.83637955214584, 45.16362044785415]
+
+Changing the weight vector for the 51 time:
+[54.835651856558705, 45.164348143441295]
+
+Changing the weight vector for the 52 time:
+[54.834939238407735, 45.165060761592265]
+
+Changing the weight vector for the 53 time:
+[54.8342411013447, 45.1657588986553]
+
+Changing the weight vector for the 54 time:
+[54.83355688334212, 45.166443116657874]
+
+Changing the weight vector for the 55 time:
+[54.83288605412464, 45.16711394587536]
+
+Changing the weight vector for the 56 time:
+[54.832228112835445, 45.16777188716456]
+
+Changing the weight vector for the 57 time:
+[54.83158258591234, 45.168417414087656]
+
+Changing the weight vector for the 58 time:
+[54.83094902515146, 45.16905097484854]
+
+Changing the weight vector for the 59 time:
+[54.83032700593898, 45.16967299406102]
+
+Changing the weight vector for the 60 time:
+[54.8297161256338, 45.170283874366206]
+
+Changing the weight vector for the 61 time:
+[54.82911600208594, 45.17088399791406]
+
+Changing the weight vector for the 62 time:
+[54.82852627227733, 45.17147372772267]
+
+Changing the weight vector for the 63 time:
+[54.827946591072994, 45.172053408927]
+
+Changing the weight vector for the 64 time:
+[54.82737663007218, 45.17262336992781]
+
+Changing the weight vector for the 65 time:
+[54.82681607654989, 45.173183923450104]
+
+Changing the weight vector for the 66 time:
+[54.8262646324805, 45.17373536751949]
+
+Changing the weight vector for the 67 time:
+[54.82572201363601, 45.17427798636398]
+
+Changing the weight vector for the 68 time:
+[54.82518620257331, 45.17481379742668]
+
+Changing the weight vector for the 69 time:
+[54.824655372033746, 45.175344627966254]
+
+Changing the weight vector for the 70 time:
+[54.82412942489522, 45.17587057510478]
+
+Changing the weight vector for the 71 time:
+[54.82360826686071, 45.17639173313929]
+
+Changing the weight vector for the 72 time:
+[54.82309180634903, 45.17690819365097]
+
+Changing the weight vector for the 73 time:
+[54.82257995439082, 45.17742004560919]
+
+Changing the weight vector for the 74 time:
+[54.8220726245296, 45.1779273754704]
+
+Changing the weight vector for the 75 time:
+[54.821569732727475, 45.178430267272525]
+
+Changing the weight vector for the 76 time:
+[54.821071197275195, 45.178928802724805]
+
+Changing the weight vector for the 77 time:
+[54.8205769387065, 45.1794230612935]
+
+Changing the weight vector for the 78 time:
+[54.82008687971634, 45.17991312028366]
+
+Changing the weight vector for the 79 time:
+[54.81960094508281, 45.180399054917196]
+
+Changing the weight vector for the 80 time:
+[54.81911906159263, 45.18088093840737]
+
+Changing the weight vector for the 81 time:
+[54.81864115796998, 45.18135884203003]
+
+Changing the weight vector for the 82 time:
+[54.81816716480839, 45.18183283519161]
+
+Changing the weight vector for the 83 time:
+[54.817697014505754, 45.18230298549425]
+
+Changing the weight vector for the 84 time:
+[54.81723064120201, 45.18276935879799]
+
+Changing the weight vector for the 85 time:
+[54.816767980719646, 45.183232019280354]
+
+Changing the weight vector for the 86 time:
+[54.81630897050665, 45.18369102949335]
+
+Changing the weight vector for the 87 time:
+[54.81585354958191, 45.18414645041809]
+
+Changing the weight vector for the 88 time:
+[54.8154016584829, 45.184598341517095]
+
+Changing the weight vector for the 89 time:
+[54.814953239215534, 45.185046760784466]
+
+Changing the weight vector for the 90 time:
+[54.81450823520607, 45.18549176479392]
+
+Changing the weight vector for the 91 time:
+[54.81406659125503, 45.18593340874497]
+
+Changing the weight vector for the 92 time:
+[54.813628253492894, 45.186371746507106]
+
+Changing the weight vector for the 93 time:
+[54.81319316933769, 45.18680683066231]
+
+Changing the weight vector for the 94 time:
+[54.81276128745416, 45.18723871254584]
+
+Changing the weight vector for the 95 time:
+[54.81233255771462, 45.18766744228538]
+
+Changing the weight vector for the 96 time:
+[54.81190693116131, 45.18809306883868]
+
+Changing the weight vector for the 97 time:
+[54.81148435997023, 45.18851564002978]
+
+Changing the weight vector for the 98 time:
+[54.811064797416314, 45.18893520258368]
+
+Changing the weight vector for the 99 time:
+[54.81064819784005, 45.18935180215994]
+
+Changing the weight vector for the 100 time:
+[54.81023451661524, 45.189765483384754]
+
+Changing the weight vector for the 101 time:
+[54.80982371011803, 45.19017628988196]
+
+Changing the weight vector for the 102 time:
+[54.809415735697144, 45.190584264302856]
+
+Changing the weight vector for the 103 time:
+[54.8090105516451, 45.19098944835489]
+
+Changing the weight vector for the 104 time:
+[54.80860811717062, 45.19139188282937]
+
+Changing the weight vector for the 105 time:
+[54.808208392371945, 45.191791607628055]
+
+Changing the weight vector for the 106 time:
+[54.80781133821115, 45.19218866178885]
+
+Changing the weight vector for the 107 time:
+[54.80741691648942, 45.192583083510584]
+
+Changing the weight vector for the 108 time:
+[54.80702508982314, 45.192974910176865]
+
+Changing the weight vector for the 109 time:
+[54.80663582162088, 45.19336417837912]
+
+Changing the weight vector for the 110 time:
+[54.806249076061185, 45.193750923938815]
+
+Changing the weight vector for the 111 time:
+[54.80586481807112, 45.194135181928885]
+
+Changing the weight vector for the 112 time:
+[54.805483013305555, 45.19451698669444]
+
+Changing the weight vector for the 113 time:
+[54.80510362812723, 45.19489637187278]
+
+Changing the weight vector for the 114 time:
+[54.80472662958736, 45.19527337041264]
+
+Changing the weight vector for the 115 time:
+[54.80435198540708, 45.19564801459292]
+
+Changing the weight vector for the 116 time:
+[54.80397966395938, 45.19602033604062]
+
+Changing the weight vector for the 117 time:
+[54.80360963425168, 45.19639036574832]
+
+Changing the weight vector for the 118 time:
+[54.803241865908994, 45.19675813409101]
+
+Changing the weight vector for the 119 time:
+[54.80287632915766, 45.19712367084233]
+
+Changing the weight vector for the 120 time:
+[54.80251299480961, 45.19748700519039]
+
+Changing the weight vector for the 121 time:
+[54.80215183424707, 45.19784816575292]
+
+Changing the weight vector for the 122 time:
+[54.801792819407886, 45.198207180592114]
+
+Changing the weight vector for the 123 time:
+[54.80143592277121, 45.19856407722879]
+
+Changing the weight vector for the 124 time:
+[54.80108111734371, 45.198918882656294]
+
+Changing the weight vector for the 125 time:
+[54.800728376646184, 45.199271623353816]
+
+Changing the weight vector for the 126 time:
+[54.80037767470062, 45.19962232529939]
+
+Changing the weight vector for the 127 time:
+[54.80002898601763, 45.19997101398238]
+
+Changing the weight vector for the 128 time:
+[54.799682285584296, 45.200317714415704]
+
+Changing the weight vector for the 129 time:
+[54.79933754885243, 45.20066245114758]
+
+Changing the weight vector for the 130 time:
+[54.79899475172707, 45.20100524827293]
+
+Changing the weight vector for the 131 time:
+[54.79865387055552, 45.20134612944449]
+
+Changing the weight vector for the 132 time:
+[54.7983148821165, 45.20168511788349]
+
+Changing the weight vector for the 133 time:
+[54.79797776360985, 45.20202223639015]
+
+Changing the weight vector for the 134 time:
+[54.79764249264634, 45.20235750735366]
+
+Changing the weight vector for the 135 time:
+[54.79730904723792, 45.20269095276209]
+
+Changing the weight vector for the 136 time:
+[54.7969774057882, 45.20302259421181]
+
+Changing the weight vector for the 137 time:
+[54.796647547083225, 45.203352452916775]
+
+Changing the weight vector for the 138 time:
+[54.796319450282546, 45.20368054971746]
+
+Changing the weight vector for the 139 time:
+[54.795993094910465, 45.204006905089535]
+
+Changing the weight vector for the 140 time:
+[54.795668460847644, 45.204331539152356]
+
+Changing the weight vector for the 141 time:
+[54.79534552832288, 45.204654471677124]
+
+Changing the weight vector for the 142 time:
+[54.79502427790515, 45.20497572209485]
+
+Changing the weight vector for the 143 time:
+[54.79470469049585, 45.205295309504145]
+
+Changing the weight vector for the 144 time:
+[54.7943867473213, 45.205613252678695]
+
+Changing the weight vector for the 145 time:
+[54.79407042992541, 45.20592957007458]
+
+Changing the weight vector for the 146 time:
+[54.793755720162615, 45.20624427983739]
+
+Changing the weight vector for the 147 time:
+[54.793442600190886, 45.206557399809114]
+
+Changing the weight vector for the 148 time:
+[54.79313105246512, 45.206868947534886]
+
+Changing the weight vector for the 149 time:
+[54.792821059730514, 45.207178940269486]
+
+Changing the weight vector for the 150 time:
+[54.79251260501628, 45.20748739498373]
+
+Changing the weight vector for the 151 time:
+[54.7922056716294, 45.20779432837061]
+
+Changing the weight vector for the 152 time:
+[54.79190024314866, 45.20809975685134]
+
+Changing the weight vector for the 153 time:
+[54.79159630341879, 45.2084036965812]
+
+Changing the weight vector for the 154 time:
+[54.791293836544774, 45.208706163455226]
+
+Changing the weight vector for the 155 time:
+[54.79099282688625, 45.20900717311375]
+
+Changing the weight vector for the 156 time:
+[54.7906932590522, 45.2093067409478]
+
+Changing the weight vector for the 157 time:
+[54.79039511789561, 45.20960488210439]
+
+Changing the weight vector for the 158 time:
+[54.79009838850843, 45.209901611491574]
+
+Changing the weight vector for the 159 time:
+[54.78980305621653, 45.21019694378348]
+
+Changing the weight vector for the 160 time:
+[54.78950910657485, 45.21049089342515]
+
+Changing the weight vector for the 161 time:
+[54.789216525362725, 45.21078347463728]
+
+Changing the weight vector for the 162 time:
+[54.7889252985792, 45.2110747014208]
+
+Changing the weight vector for the 163 time:
+[54.78863541243861, 45.2113645875614]
+
+Changing the weight vector for the 164 time:
+[54.78834685336612, 45.21165314663388]
+
+Changing the weight vector for the 165 time:
+[54.78805960799355, 45.21194039200645]
+
+Changing the weight vector for the 166 time:
+[54.78777366315516, 45.212226336844836]
+
+Changing the weight vector for the 167 time:
+[54.78748900588359, 45.212510994116414]
+
+Changing the weight vector for the 168 time:
+[54.78720562340593, 45.21279437659407]
+
+Changing the weight vector for the 169 time:
+[54.78692350313986, 45.21307649686015]
+
+Changing the weight vector for the 170 time:
+[54.78664263268987, 45.21335736731013]
+
+Changing the weight vector for the 171 time:
+[54.78636299984361, 45.21363700015639]
+
+Changing the weight vector for the 172 time:
+[54.7860845925683, 45.2139154074317]
+
+Changing the weight vector for the 173 time:
+[54.78580739900724, 45.21419260099276]
+
+Changing the weight vector for the 174 time:
+[54.7855314074764, 45.2144685925236]
+
+Changing the weight vector for the 175 time:
+[54.78525660646108, 45.21474339353892]
+
+Changing the weight vector for the 176 time:
+[54.784982984612704, 45.215017015387296]
+
+Changing the weight vector for the 177 time:
+[54.78471053074559, 45.215289469254415]
+
+Changing the weight vector for the 178 time:
+[54.78443923383391, 45.21556076616609]
+
+Changing the weight vector for the 179 time:
+[54.78416908300863, 45.21583091699138]
+
+Changing the weight vector for the 180 time:
+[54.78390006755457, 45.21609993244543]
+
+Changing the weight vector for the 181 time:
+[54.78363217690755, 45.21636782309245]
+
+Changing the weight vector for the 182 time:
+[54.78336540065153, 45.216634599348474]
+
+Changing the weight vector for the 183 time:
+[54.783099728515886, 45.21690027148412]
+
+Changing the weight vector for the 184 time:
+[54.78283515037271, 45.21716484962729]
+
+Changing the weight vector for the 185 time:
+[54.78257165623421, 45.21742834376578]
+
+Changing the weight vector for the 186 time:
+[54.782309236250136, 45.21769076374987]
+
+Changing the weight vector for the 187 time:
+[54.782047880705214, 45.217952119294786]
+
+Changing the weight vector for the 188 time:
+[54.78178758001681, 45.218212419983196]
+
+Changing the weight vector for the 189 time:
+[54.781528324732434, 45.21847167526756]
+
+Changing the weight vector for the 190 time:
+[54.78127010552747, 45.21872989447253]
+
+Changing the weight vector for the 191 time:
+[54.781012913202815, 45.218987086797185]
+
+Changing the weight vector for the 192 time:
+[54.78075673868272, 45.21924326131728]
+
+Changing the weight vector for the 193 time:
+[54.78050157301254, 45.219498426987464]
+
+Changing the weight vector for the 194 time:
+[54.780247407356626, 45.219752592643374]
+
+Changing the weight vector for the 195 time:
+[54.77999423299622, 45.22000576700378]
+
+Changing the weight vector for the 196 time:
+[54.779742041327424, 45.22025795867258]
+
+Changing the weight vector for the 197 time:
+[54.77949082385915, 45.22050917614086]
+
+Changing the weight vector for the 198 time:
+[54.77924057221122, 45.22075942778877]
+
+Changing the weight vector for the 199 time:
+[54.778991278112436, 45.22100872188756]
+
+Changing the weight vector for the 200 time:
+[54.77874293339866, 45.22125706660134]
+
+Changing the weight vector for the 201 time:
+[54.77849553001102, 45.22150446998897]
+
+Changing the weight vector for the 202 time:
+[54.77824905999411, 45.22175094000588]
+
+Changing the weight vector for the 203 time:
+[54.77800351549422, 45.22199648450578]
+
+Changing the weight vector for the 204 time:
+[54.777758888757596, 45.222241111242404]
+
+Changing the weight vector for the 205 time:
+[54.7775151721288, 45.2224848278712]
+
+Changing the weight vector for the 206 time:
+[54.777272358049025, 45.22272764195097]
+
+Changing the weight vector for the 207 time:
+[54.7770304390545, 45.2229695609455]
+
+Changing the weight vector for the 208 time:
+[54.77678940777488, 45.22321059222512]
+
+Changing the weight vector for the 209 time:
+[54.776549256931716, 45.223450743068284]
+
+Changing the weight vector for the 210 time:
+[54.77630997933695, 45.22369002066306]
+
+Changing the weight vector for the 211 time:
+[54.77607156789139, 45.22392843210861]
+
+Changing the weight vector for the 212 time:
+[54.7758340155833, 45.2241659844167]
+
+Changing the weight vector for the 213 time:
+[54.77559731548693, 45.22440268451307]
+
+Changing the weight vector for the 214 time:
+[54.77536146076114, 45.22463853923885]
+
+Changing the weight vector for the 215 time:
+[54.77512644464806, 45.22487355535195]
+
+Changing the weight vector for the 216 time:
+[54.77489226047166, 45.22510773952834]
+
+Changing the weight vector for the 217 time:
+[54.77465890163654, 45.22534109836345]
+
+Changing the weight vector for the 218 time:
+[54.77442636162659, 45.22557363837342]
+
+Changing the weight vector for the 219 time:
+[54.77419463400368, 45.225805365996315]
+
+Changing the weight vector for the 220 time:
+[54.773963712406534, 45.226036287593466]
+
+Changing the weight vector for the 221 time:
+[54.77373359054941, 45.22626640945058]
+
+Changing the weight vector for the 222 time:
+[54.77350426222099, 45.22649573777901]
+
+Changing the weight vector for the 223 time:
+[54.773275721283134, 45.22672427871687]
+
+Changing the weight vector for the 224 time:
+[54.773047961669796, 45.2269520383302]
+
+Changing the weight vector for the 225 time:
+[54.772820977385905, 45.227179022614095]
+
+Changing the weight vector for the 226 time:
+[54.772594762506216, 45.227405237493784]
+
+Changing the weight vector for the 227 time:
+[54.772369311174266, 45.22763068882573]
+
+Changing the weight vector for the 228 time:
+[54.77214461760132, 45.22785538239868]
+
+Changing the weight vector for the 229 time:
+[54.7719206760653, 45.2280793239347]
+
+Changing the weight vector for the 230 time:
+[54.7716974809098, 45.22830251909019]
+
+Changing the weight vector for the 231 time:
+[54.7714750265431, 45.228524973456906]
+
+Changing the weight vector for the 232 time:
+[54.77125330743711, 45.22874669256289]
+
+Changing the weight vector for the 233 time:
+[54.771032318126494, 45.228967681873506]
+
+Changing the weight vector for the 234 time:
+[54.77081205320769, 45.229187946792315]
+
+Changing the weight vector for the 235 time:
+[54.770592507337966, 45.229407492662034]
+
+Changing the weight vector for the 236 time:
+[54.77037367523455, 45.22962632476545]
+
+Changing the weight vector for the 237 time:
+[54.77015555167372, 45.22984444832628]
+
+Changing the weight vector for the 238 time:
+[54.76993813148991, 45.23006186851009]
+
+Changing the weight vector for the 239 time:
+[54.76972140957488, 45.230278590425115]
+
+Changing the weight vector for the 240 time:
+[54.76950538087686, 45.230494619123135]
+
+Changing the weight vector for the 241 time:
+[54.76929004039972, 45.230709959600276]
+
+Changing the weight vector for the 242 time:
+[54.76907538320216, 45.23092461679784]
+
+Changing the weight vector for the 243 time:
+[54.7688614043969, 45.23113859560309]
+
+Changing the weight vector for the 244 time:
+[54.768648099149935, 45.231351900850065]
+
+Changing the weight vector for the 245 time:
+[54.7684354626797, 45.231564537320295]
+
+Changing the weight vector for the 246 time:
+[54.76822349025638, 45.23177650974362]
+
+Changing the weight vector for the 247 time:
+[54.76801217720113, 45.23198782279888]
+
+Changing the weight vector for the 248 time:
+[54.76780151888534, 45.23219848111466]
+
+Changing the weight vector for the 249 time:
+[54.76759151072996, 45.232408489270036]
+
+Changing the weight vector for the 250 time:
+[54.767382148204746, 45.23261785179525]
+
+Changing the weight vector for the 251 time:
+[54.76717342682762, 45.23282657317238]
+
+Changing the weight vector for the 252 time:
+[54.76696534216393, 45.23303465783607]
+
+Changing the weight vector for the 253 time:
+[54.76675788982583, 45.23324211017417]
+
+Changing the weight vector for the 254 time:
+[54.76655106547163, 45.23344893452837]
+
+Changing the weight vector for the 255 time:
+[54.76634486480511, 45.233655135194894]
+
+Changing the weight vector for the 256 time:
+[54.766139283574915, 45.23386071642509]
+
+Changing the weight vector for the 257 time:
+[54.76593431757393, 45.23406568242607]
+
+Changing the weight vector for the 258 time:
+[54.76572996263867, 45.234270037361334]
+
+Changing the weight vector for the 259 time:
+[54.76552621464867, 45.23447378535133]
+
+Changing the weight vector for the 260 time:
+[54.76532306952591, 45.23467693047408]
+
+Changing the weight vector for the 261 time:
+[54.76512052323423, 45.23487947676578]
+
+Changing the weight vector for the 262 time:
+[54.76491857177872, 45.23508142822127]
+
+Changing the weight vector for the 263 time:
+[54.76471721120525, 45.235282788794756]
+
+Changing the weight vector for the 264 time:
+[54.764516437599795, 45.2354835624002]
+
+Changing the weight vector for the 265 time:
+[54.76431624708803, 45.235683752911974]
+
+Changing the weight vector for the 266 time:
+[54.76411663583467, 45.235883364165325]
+
+Changing the weight vector for the 267 time:
+[54.763917600043044, 45.236082399956956]
+
+Changing the weight vector for the 268 time:
+[54.76371913595452, 45.23628086404548]
+
+Changing the weight vector for the 269 time:
+[54.763521239848004, 45.23647876015199]
+
+Changing the weight vector for the 270 time:
+[54.76332390803949, 45.236676091960504]
+
+Changing the weight vector for the 271 time:
+[54.76312713688151, 45.23687286311849]
+
+Changing the weight vector for the 272 time:
+[54.76293092276268, 45.23706907723733]
+
+Changing the weight vector for the 273 time:
+[54.76273526210721, 45.23726473789279]
+
+Changing the weight vector for the 274 time:
+[54.76254015137448, 45.23745984862551]
+
+Changing the weight vector for the 275 time:
+[54.762345587058526, 45.23765441294147]
+
+Changing the weight vector for the 276 time:
+[54.76215156568762, 45.23784843431238]
+
+Changing the weight vector for the 277 time:
+[54.76195808382381, 45.23804191617619]
+
+Changing the weight vector for the 278 time:
+[54.7617651380625, 45.2382348619375]
+
+Changing the weight vector for the 279 time:
+[54.761572725032025, 45.238427274967975]
+
+Changing the weight vector for the 280 time:
+[54.76138084139319, 45.23861915860681]
+
+Changing the weight vector for the 281 time:
+[54.76118948383889, 45.23881051616111]
+
+Changing the weight vector for the 282 time:
+[54.760998649093686, 45.239001350906314]
+
+Changing the weight vector for the 283 time:
+[54.76080833391341, 45.23919166608659]
+
+Changing the weight vector for the 284 time:
+[54.76061853508475, 45.23938146491525]
+
+Changing the weight vector for the 285 time:
+[54.76042924942489, 45.23957075057511]
+
+Changing the weight vector for the 286 time:
+[54.76024047378108, 45.23975952621891]
+
+Changing the weight vector for the 287 time:
+[54.76005220503032, 45.23994779496967]
+
+Changing the weight vector for the 288 time:
+[54.75986444007893, 45.24013555992107]
+
+Changing the weight vector for the 289 time:
+[54.7596771758622, 45.2403228241378]
+
+Changing the weight vector for the 290 time:
+[54.75949040934405, 45.24050959065595]
+
+Changing the weight vector for the 291 time:
+[54.759304137516665, 45.240695862483335]
+
+Changing the weight vector for the 292 time:
+[54.75911835740011, 45.24088164259989]
+
+Changing the weight vector for the 293 time:
+[54.75893306604205, 45.24106693395795]
+
+Changing the weight vector for the 294 time:
+[54.75874826051734, 45.24125173948265]
+
+Changing the weight vector for the 295 time:
+[54.75856393792777, 45.241436062072225]
+
+Changing the weight vector for the 296 time:
+[54.758380095401655, 45.24161990459835]
+
+Changing the weight vector for the 297 time:
+[54.75819673009356, 45.24180326990645]
+
+Changing the weight vector for the 298 time:
+[54.75801383918397, 45.24198616081603]
+
+Changing the weight vector for the 299 time:
+[54.75783141987898, 45.242168580121024]
+
+Changing the weight vector for the 300 time:
+[54.757649469409984, 45.24235053059002]
+
+Changing the weight vector for the 301 time:
+[54.757467985033344, 45.242532014966656]
+
+Changing the weight vector for the 302 time:
+[54.757286964030136, 45.24271303596986]
+
+Changing the weight vector for the 303 time:
+[54.75710640370584, 45.24289359629417]
+
+Changing the weight vector for the 304 time:
+[54.75692630139, 45.243073698610004]
+
+Changing the weight vector for the 305 time:
+[54.75674665443601, 45.243253345563986]
+
+Changing the weight vector for the 306 time:
+[54.75656746022079, 45.243432539779214]
+
+Changing the weight vector for the 307 time:
+[54.7563887161445, 45.24361128385549]
+
+Changing the weight vector for the 308 time:
+[54.756210419630314, 45.243789580369686]
+
+Changing the weight vector for the 309 time:
+[54.75603256812407, 45.24396743187592]
+
+Changing the weight vector for the 310 time:
+[54.7558551590941, 45.244144840905896]
+
+Changing the weight vector for the 311 time:
+[54.75567819003088, 45.24432180996913]
+
+Changing the weight vector for the 312 time:
+[54.7555016584468, 45.2444983415532]
+
+Changing the weight vector for the 313 time:
+[54.755325561875964, 45.24467443812404]
+
+Changing the weight vector for the 314 time:
+[54.75514989787384, 45.24485010212616]
+
+Changing the weight vector for the 315 time:
+[54.754974664017105, 45.245025335982895]
+
+Changing the weight vector for the 316 time:
+[54.75479985790333, 45.245200142096664]
+
+Changing the weight vector for the 317 time:
+[54.75462547715079, 45.24537452284922]
+
+Changing the weight vector for the 318 time:
+[54.75445151939818, 45.24554848060182]
+
+Changing the weight vector for the 319 time:
+[54.75427798230444, 45.24572201769557]
+
+Changing the weight vector for the 320 time:
+[54.754104863548456, 45.245895136451544]
+
+Changing the weight vector for the 321 time:
+[54.753932160828896, 45.246067839171104]
+
+Changing the weight vector for the 322 time:
+[54.75375987186394, 45.24624012813606]
+
+Changing the weight vector for the 323 time:
+[54.7535879943911, 45.2464120056089]
+
+Changing the weight vector for the 324 time:
+[54.75341652616694, 45.24658347383306]
+
+Changing the weight vector for the 325 time:
+[54.75324546496694, 45.24675453503307]
+
+Changing the weight vector for the 326 time:
+[54.75307480858521, 45.24692519141479]
+
+Changing the weight vector for the 327 time:
+[54.75290455483436, 45.24709544516565]
+
+Changing the weight vector for the 328 time:
+[54.7527347015452, 45.247265298454806]
+
+Changing the weight vector for the 329 time:
+[54.75256524656662, 45.24743475343338]
+
+Changing the weight vector for the 330 time:
+[54.75239618776534, 45.24760381223465]
+
+Changing the weight vector for the 331 time:
+[54.75222752302575, 45.24777247697425]
+
+Changing the weight vector for the 332 time:
+[54.75205925024967, 45.24794074975032]
+
+Changing the weight vector for the 333 time:
+[54.75189136735621, 45.24810863264379]
+
+Changing the weight vector for the 334 time:
+[54.75172387228151, 45.24827612771848]
+
+Changing the weight vector for the 335 time:
+[54.75155676297864, 45.248443237021355]
+
+Changing the weight vector for the 336 time:
+[54.75139003741736, 45.24860996258265]
+
+Changing the weight vector for the 337 time:
+[54.751223693583924, 45.248776306416076]
+
+Changing the weight vector for the 338 time:
+[54.75105772948097, 45.24894227051904]
+
+Changing the weight vector for the 339 time:
+[54.75089214312726, 45.24910785687273]
+
+Changing the weight vector for the 340 time:
+[54.75072693255758, 45.24927306744242]
+
+Changing the weight vector for the 341 time:
+[54.75056209582251, 45.24943790417748]
+
+Changing the weight vector for the 342 time:
+[54.75039763098828, 45.24960236901171]
+
+Changing the weight vector for the 343 time:
+[54.75023353613661, 45.24976646386339]
+
+Changing the weight vector for the 344 time:
+[54.750069809364525, 45.249930190635475]
+
+Changing the weight vector for the 345 time:
+[54.7499064487842, 45.2500935512158]
+
+Changing the weight vector for the 346 time:
+[54.749743452522814, 45.250256547477186]
+
+Changing the weight vector for the 347 time:
+[54.74958081872236, 45.25041918127764]
+
+Changing the weight vector for the 348 time:
+[54.74941854553951, 45.25058145446049]
+
+Changing the weight vector for the 349 time:
+[54.74925663114547, 45.25074336885453]
+
+Changing the weight vector for the 350 time:
+[54.7490950737258, 45.25090492627421]
+
+Changing the weight vector for the 351 time:
+[54.74893387148026, 45.25106612851974]
+
+Changing the weight vector for the 352 time:
+[54.74877302262272, 45.25122697737728]
+
+Changing the weight vector for the 353 time:
+[54.74861252538094, 45.251387474619065]
+
+Changing the weight vector for the 354 time:
+[54.74845237799646, 45.25154762200354]
+
+Changing the weight vector for the 355 time:
+[54.748292578724445, 45.25170742127555]
+
+Changing the weight vector for the 356 time:
+[54.74813312583359, 45.25186687416642]
+
+Changing the weight vector for the 357 time:
+[54.74797401760589, 45.252025982394116]
+
+Changing the weight vector for the 358 time:
+[54.747815252336586, 45.25218474766341]
+
+Changing the weight vector for the 359 time:
+[54.747656828334, 45.252343171666]
+
+Changing the weight vector for the 360 time:
+[54.747498743919394, 45.25250125608061]
+
+Changing the weight vector for the 361 time:
+[54.74734099742682, 45.25265900257318]
+
+Changing the weight vector for the 362 time:
+[54.74718358720305, 45.252816412796946]
+
+Changing the weight vector for the 363 time:
+[54.74702651160739, 45.25297348839262]
+
+Changing the weight vector for the 364 time:
+[54.74686976901156, 45.25313023098844]
+
+Changing the weight vector for the 365 time:
+[54.74671335779961, 45.25328664220039]
+
+Changing the weight vector for the 366 time:
+[54.74655727636773, 45.253442723632276]
+
+Changing the weight vector for the 367 time:
+[54.74640152312419, 45.2535984768758]
+
+Changing the weight vector for the 368 time:
+[54.746246096489195, 45.253753903510805]
+
+Changing the weight vector for the 369 time:
+[54.74609099489473, 45.253909005105264]
+
+Changing the weight vector for the 370 time:
+[54.745936216784514, 45.254063783215486]
+
+Changing the weight vector for the 371 time:
+[54.745781760613816, 45.25421823938618]
+
+Changing the weight vector for the 372 time:
+[54.74562762484939, 45.254372375150616]
+
+Changing the weight vector for the 373 time:
+[54.745473807969304, 45.254526192030696]
+
+Changing the weight vector for the 374 time:
+[54.7453203084629, 45.2546796915371]
+
+Changing the weight vector for the 375 time:
+[54.74516712483062, 45.25483287516937]
+
+Changing the weight vector for the 376 time:
+[54.745014255583946, 45.25498574441605]
+
+Changing the weight vector for the 377 time:
+[54.74486169924525, 45.25513830075475]
+
+Changing the weight vector for the 378 time:
+[54.744709454347706, 45.2552905456523]
+
+Changing the weight vector for the 379 time:
+[54.74455751943518, 45.25544248056481]
+
+Changing the weight vector for the 380 time:
+[54.744405893062165, 45.25559410693784]
+
+Changing the weight vector for the 381 time:
+[54.74425457379358, 45.255745426206424]
+
+Changing the weight vector for the 382 time:
+[54.74410356020478, 45.25589643979522]
+
+Changing the weight vector for the 383 time:
+[54.74395285088138, 45.25604714911862]
+
+Changing the weight vector for the 384 time:
+[54.743802444419195, 45.256197555580805]
+
+Changing the weight vector for the 385 time:
+[54.74365233942413, 45.25634766057587]
+
+Changing the weight vector for the 386 time:
+[54.74350253451207, 45.25649746548793]
+
+Changing the weight vector for the 387 time:
+[54.74335302830879, 45.25664697169121]
+
+Changing the weight vector for the 388 time:
+[54.74320381944988, 45.25679618055011]
+
+Changing the weight vector for the 389 time:
+[54.74305490658065, 45.256945093419354]
+
+Changing the weight vector for the 390 time:
+[54.74290628835598, 45.25709371164402]
+
+Changing the weight vector for the 391 time:
+[54.742757963440326, 45.25724203655968]
+
+Changing the weight vector for the 392 time:
+[54.74260993050753, 45.25739006949247]
+
+Changing the weight vector for the 393 time:
+[54.74246218824081, 45.25753781175919]
+
+Changing the weight vector for the 394 time:
+[54.74231473533263, 45.25768526466737]
+
+Changing the weight vector for the 395 time:
+[54.74216757048462, 45.25783242951538]
+
+Changing the weight vector for the 396 time:
+[54.742020692407486, 45.25797930759251]
+
+Changing the weight vector for the 397 time:
+[54.74187409982096, 45.258125900179046]
+
+Changing the weight vector for the 398 time:
+[54.74172779145365, 45.25827220854636]
+
+Changing the weight vector for the 399 time:
+[54.74158176604301, 45.258418233956995]
+
+Changing the weight vector for the 400 time:
+[54.74143602233525, 45.25856397766475]
+
+Changing the weight vector for the 401 time:
+[54.74129055908524, 45.258709440914764]
+
+Changing the weight vector for the 402 time:
+[54.74114537505644, 45.25885462494356]
+
+Changing the weight vector for the 403 time:
+[54.74100046902081, 45.25899953097919]
+
+Changing the weight vector for the 404 time:
+[54.74085583975875, 45.259144160241256]
+
+Changing the weight vector for the 405 time:
+[54.74071148605899, 45.259288513941016]
+
+Changing the weight vector for the 406 time:
+[54.74056740671856, 45.259432593281446]
+
+Changing the weight vector for the 407 time:
+[54.74042360054267, 45.25957639945732]
+
+Changing the weight vector for the 408 time:
+[54.740280066344674, 45.25971993365532]
+
+Changing the weight vector for the 409 time:
+[54.74013680294596, 45.259863197054045]
+
+Changing the weight vector for the 410 time:
+[54.73999380917589, 45.26000619082411]
+
+Changing the weight vector for the 411 time:
+[54.73985108387175, 45.260148916128244]
+
+Changing the weight vector for the 412 time:
+[54.73970862587865, 45.26029137412136]
+
+Changing the weight vector for the 413 time:
+[54.739566434049436, 45.260433565950564]
+
+Changing the weight vector for the 414 time:
+[54.73942450724469, 45.26057549275531]
+
+Changing the weight vector for the 415 time:
+[54.73928284433259, 45.26071715566741]
+
+Changing the weight vector for the 416 time:
+[54.73914144418888, 45.26085855581112]
+
+Changing the weight vector for the 417 time:
+[54.73900030569678, 45.260999694303216]
+
+Changing the weight vector for the 418 time:
+[54.738859427746945, 45.261140572253055]
+
+Changing the weight vector for the 419 time:
+[54.73871880923737, 45.261281190762624]
+
+Changing the weight vector for the 420 time:
+[54.738578449073344, 45.26142155092665]
+
+Changing the weight vector for the 421 time:
+[54.73843834616739, 45.26156165383261]
+
+Changing the weight vector for the 422 time:
+[54.738298499439175, 45.261701500560825]
+
+Changing the weight vector for the 423 time:
+[54.73815890781547, 45.26184109218453]
+
+Changing the weight vector for the 424 time:
+[54.73801957023008, 45.26198042976992]
+
+Changing the weight vector for the 425 time:
+[54.73788048562379, 45.26211951437621]
+
+Changing the weight vector for the 426 time:
+[54.737741652944294, 45.26225834705571]
+
+Changing the weight vector for the 427 time:
+[54.73760307114611, 45.26239692885389]
+
+Changing the weight vector for the 428 time:
+[54.73746473919059, 45.26253526080941]
+
+Changing the weight vector for the 429 time:
+[54.737326656045795, 45.262673343954205]
+
+Changing the weight vector for the 430 time:
+[54.73718882068646, 45.26281117931354]
+
+Changing the weight vector for the 431 time:
+[54.73705123209394, 45.26294876790606]
+
+Changing the weight vector for the 432 time:
+[54.736913889256144, 45.26308611074386]
+
+Changing the weight vector for the 433 time:
+[54.73677679116747, 45.263223208832535]
+
+Changing the weight vector for the 434 time:
+[54.73663993682879, 45.26336006317121]
+
+Changing the weight vector for the 435 time:
+[54.73650332524734, 45.26349667475265]
+
+Changing the weight vector for the 436 time:
+[54.73636695543673, 45.26363304456328]
+
+Changing the weight vector for the 437 time:
+[54.73623082641679, 45.26376917358321]
+
+Changing the weight vector for the 438 time:
+[54.73609493721362, 45.26390506278638]
+
+Changing the weight vector for the 439 time:
+[54.73595928685949, 45.26404071314052]
+
+Changing the weight vector for the 440 time:
+[54.73582387439278, 45.26417612560723]
+
+Changing the weight vector for the 441 time:
+[54.735688698857935, 45.264311301142065]
+
+Changing the weight vector for the 442 time:
+[54.735553759305446, 45.26444624069456]
+
+Changing the weight vector for the 443 time:
+[54.73541905479174, 45.26458094520826]
+
+Changing the weight vector for the 444 time:
+[54.73528458437918, 45.26471541562082]
+
+Changing the weight vector for the 445 time:
+[54.73515034713599, 45.264849652864015]
+
+Changing the weight vector for the 446 time:
+[54.735016342136205, 45.2649836578638]
+
+Changing the weight vector for the 447 time:
+[54.734882568459625, 45.265117431540375]
+
+Changing the weight vector for the 448 time:
+[54.734749025191796, 45.265250974808204]
+
+Changing the weight vector for the 449 time:
+[54.73461571142391, 45.265384288576094]
+
+Changing the weight vector for the 450 time:
+[54.7344826262528, 45.265517373747194]
+
+Changing the weight vector for the 451 time:
+[54.734349768780866, 45.26565023121913]
+
+Changing the weight vector for the 452 time:
+[54.73421713811605, 45.26578286188394]
+
+Changing the weight vector for the 453 time:
+[54.73408473337179, 45.26591526662821]
+
+Changing the weight vector for the 454 time:
+[54.733952553666924, 45.26604744633307]
+
+Changing the weight vector for the 455 time:
+[54.73382059812574, 45.26617940187426]
+
+Changing the weight vector for the 456 time:
+[54.73368886587783, 45.26631113412217]
+
+Changing the weight vector for the 457 time:
+[54.73355735605813, 45.26644264394187]
+
+Changing the weight vector for the 458 time:
+[54.73342606780681, 45.26657393219319]
+
+Changing the weight vector for the 459 time:
+[54.73329500026929, 45.266704999730706]
+
+Changing the weight vector for the 460 time:
+[54.73316415259616, 45.26683584740385]
+
+Changing the weight vector for the 461 time:
+[54.73303352394313, 45.26696647605687]
+
+Changing the weight vector for the 462 time:
+[54.73290311347102, 45.26709688652898]
+
+Changing the weight vector for the 463 time:
+[54.732772920345695, 45.267227079654305]
+
+Changing the weight vector for the 464 time:
+[54.73264294373804, 45.26735705626196]
+
+Changing the weight vector for the 465 time:
+[54.732513182823915, 45.267486817176085]
+
+Changing the weight vector for the 466 time:
+[54.73238363678411, 45.2676163632159]
+
+Changing the weight vector for the 467 time:
+[54.73225430480428, 45.26774569519572]
+
+Changing the weight vector for the 468 time:
+[54.732125186074974, 45.26787481392503]
+
+Changing the weight vector for the 469 time:
+[54.73199627979152, 45.268003720208476]
+
+Changing the weight vector for the 470 time:
+[54.73186758515405, 45.268132414845944]
+
+Changing the weight vector for the 471 time:
+[54.73173910136742, 45.268260898632576]
+
+Changing the weight vector for the 472 time:
+[54.731610827641184, 45.26838917235882]
+
+Changing the weight vector for the 473 time:
+[54.73148276318955, 45.268517236810446]
+
+Changing the weight vector for the 474 time:
+[54.73135490723137, 45.26864509276863]
+
+Changing the weight vector for the 475 time:
+[54.73122725899007, 45.268772741009926]
+
+Changing the weight vector for the 476 time:
+[54.73109981769365, 45.26890018230636]
+
+Changing the weight vector for the 477 time:
+[54.73097258257458, 45.26902741742543]
+
+Changing the weight vector for the 478 time:
+[54.73084555286986, 45.26915444713014]
+
+Changing the weight vector for the 479 time:
+[54.73071872782091, 45.269281272179086]
+
+Changing the weight vector for the 480 time:
+[54.73059210667356, 45.26940789332644]
+
+Changing the weight vector for the 481 time:
+[54.73046568867803, 45.26953431132196]
+
+Changing the weight vector for the 482 time:
+[54.730339473088875, 45.26966052691113]
+
+Changing the weight vector for the 483 time:
+[54.73021345916494, 45.269786540835064]
+
+Changing the weight vector for the 484 time:
+[54.73008764616938, 45.26991235383063]
+
+Changing the weight vector for the 485 time:
+[54.72996203336685, 45.27003796663315]
+
+Changing the weight vector for the 486 time:
+[54.729836619911715, 45.27016338008829]
+
+Changing the weight vector for the 487 time:
+[54.72971140508108, 45.27028859491892]
+
+Changing the weight vector for the 488 time:
+[54.72958638815622, 45.27041361184378]
+
+Changing the weight vector for the 489 time:
+[54.72946156842249, 45.27053843157752]
+
+Changing the weight vector for the 490 time:
+[54.729336945169294, 45.270663054830706]
+
+Changing the weight vector for the 491 time:
+[54.72921251769011, 45.2707874823099]
+
+Changing the weight vector for the 492 time:
+[54.72908828528237, 45.27091171471762]
+
+Changing the weight vector for the 493 time:
+[54.72896424724754, 45.27103575275247]
+
+Changing the weight vector for the 494 time:
+[54.72884040289096, 45.27115959710904]
+
+Changing the weight vector for the 495 time:
+[54.728716751521944, 45.271283248478056]
+
+Changing the weight vector for the 496 time:
+[54.72859329245365, 45.271406707546355]
+
+Changing the weight vector for the 497 time:
+[54.728470025003105, 45.271529974996895]
+
+Changing the weight vector for the 498 time:
+[54.72834694849116, 45.27165305150884]
+
+Changing the weight vector for the 499 time:
+[54.728224062242454, 45.27177593775755]
+
+Changing the weight vector for the 500 time:
+[54.7281013655854, 45.271898634414605]
+
+
+number of candidates - 7880.
+
+Without using the algorithm:
+Numer of people passing the questionaire - 3976
+Numer of people passing the interview - 1908
+Percentage of people passing the interview after passing the questionaire: 47.9879275654%
+
+Using the algorithm:
+Numer of people passing the questionaire - 1908
+Numer of people passing the interview - 1908
+Percentage of people passing the interview after passing the questionaire: 100.0%

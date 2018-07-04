@@ -1,0 +1,35 @@
+﻿{% extends "app/base.html" %}
+{% load staticfiles %}
+{% block content %} 
+           <div class="email-head">
+            <div class="email-head-subject">
+              <div class="title"><a href="#" class="active"><span class="icon mdi mdi-star"></span></a> <span>Development Files</span> 
+                <div class="icons"><a href="#"><i class="icon mdi mdi-mail-reply"></i></a><a href="#"><i class="icon mdi mdi-print"></i></a><a href="#"><i class="icon mdi mdi-delete"></i></a></div>
+              </div>
+            </div>
+            <div class="email-head-sender">
+              <div class="date">August 23, 3:37</div>
+              <div class="avatar"><img src="{% static 'app/assets/img/avatar3.png' %}" alt="Avatar"></div>
+              <div class="sender"><a href="">Justine Myranda</a> to <a href="">me</a>
+                <div class="actions"><a href="#" data-toggle="dropdown" class="icon toggle-dropdown"><i class="mdi mdi-caret-down"></i></a>
+                  <div role="menu" class="dropdown-menu"><a href="#" class="dropdown-item">Mark as read</a><a href="#" class="dropdown-item">Mark as unread</a><a href="#" class="dropdown-item">Spam</a>
+                    <div class="dropdown-divider"></div><a href="#" class="dropdown-item">Delete</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="email-body">
+            <p>Hello,</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+            <p>Regards,<br> Justine Myranda</p>
+          </div>
+          <div class="email-attachments">
+            <div class="title">Attachments <span>(2 files, 16,24 KB)</span></div>
+            <ul>
+              <li><a href="#"><span class="icon mdi mdi-attachment-alt"></span> new-release.zip <span>(5.12 KB)</span></a></li>
+              <li><a href="#"><span class="icon mdi mdi-attachment-alt"></span> guidelines.pdf <span>(11.3 MB)</span></a></li>
+            </ul>
+          </div>
+{% endblock %}

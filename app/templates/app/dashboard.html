@@ -1,0 +1,18 @@
+{% extends "app/base.html" %}
+{% block content %}
+<div class="row">
+    {%for comp in companies%}
+<div class="col-lg-5">
+              <div class="card card-border card-header-dark">
+                <div class="card-header card-header-contrast">{{comp.name}}
+                  <div class="tools"><a href="/search/company/{{comp.name}}/"><span class="icon mdi mdi-open-in-new"></span></a>
+                      </div>    
+                </div>
+                 <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="/mini/company/{{comp.name}}/"></iframe>
+                </div>
+              </div>
+            </div>
+    {%endfor%}
+          </div>
+{% endblock %}

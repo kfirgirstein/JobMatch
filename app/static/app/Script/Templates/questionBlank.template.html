@@ -1,0 +1,37 @@
+  <div class="form-group row">
+                      <label for="inputDescription" class="col-12 col-sm-3 col-form-label text-sm-left">Description</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input id="inputDescription" type="text" readonly="readonly" ng-model="selectedQuestion.description" class="form-control">
+                      </div>
+                    </div>
+<div class="form-group row pt-1 pb-1">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-left">Answers</label>
+                      <div class="col-12 col-sm-8 col-lg-6 form-check mt-2">
+                        <label class="custom-control custom-radio">
+                          <input type="radio" name="{{selectedQuestion.id}}" ng-checked="selectedQuestion.correct_answer==1" 
+                                 class="custom-control-input" disabled
+                                 ng-class="{true:'is-valid', false:'is-invalid'}[selectedQuestion.correct_answer==1]">
+                            <span class="custom-control-label"  ng-bind="selectedQuestion.option_a"></span>
+                        </label>
+                        <label class="custom-control custom-radio">
+                          <input type="radio" name="{{selectedQuestion.id}}" ng-checked="selectedQuestion.correct_answer==2" 
+                                 class="custom-control-input"  disabled
+                                 ng-class="{true:'is-valid', false:'is-invalid'}[selectedQuestion.correct_answer==2]">
+                            <span class="custom-control-label" ng-bind="selectedQuestion.option_b"></span>
+                        </label>
+                        <label class="custom-control custom-radio" ng-if="!!selectedQuestion.option_c">
+                          <input type="radio" name="{{selectedQuestion.id}}"  ng-checked="selectedQuestion.correct_answer==3"
+                                 class="custom-control-input" disabled
+                                 ng-class="{true:'is-valid', false:'is-invalid'}[selectedQuestion.correct_answer==3]">
+                            <span class="custom-control-label" ng-bind="selectedQuestion.option_c"></span>
+                        </label>
+                           <label class="custom-control custom-radio" ng-if="!!selectedQuestion.option_d"> 
+                          <input type="radio" name="{{selectedQuestion.id}}"  ng-checked="selectedQuestion.correct_answer==4" 
+                                 class="custom-control-input" disabled
+                                 ng-class="{true:'is-valid', false:'is-invalid'}[selectedQuestion.correct_answer==4]">
+                               <span class="custom-control-label" ng-bind="selectedQuestion.option_d"></span>
+                        </label>
+                      </div>
+                    </div>
+
+          

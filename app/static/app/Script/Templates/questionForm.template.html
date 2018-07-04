@@ -1,0 +1,21 @@
+<div class="form-group pt-2">
+        <span for="inputEmail" ng-bind="qw.question.description"></span>
+        <div class="form-check mt-2">
+            <label class="custom-control custom-radio custom-control-inline">
+              <input type="radio" value="1" ng-model="myRate[qw.id]" name="{{qw.id}}" checked="" class="custom-control-input">
+              <span class="custom-control-label" ng-bind="qw.question.option_a"></span>
+            </label>
+            <label class="custom-control custom-radio custom-control-inline">
+              <input type="radio" value="2" ng-model="myRate[qw.id]" name="{{qw.id}}"  class="custom-control-input" ><span class="custom-control-label" ng-bind="qw.question.option_b"></span>
+            </label>
+            <label ng-if="!!qw.question.option_c" class="custom-control custom-radio custom-control-inline">
+              <input type="radio" value="3" ng-model="myRate[qw.id]" name="{{qw.id}}" class="custom-control-input" ><span class="custom-control-label" ng-bind="qw.question.option_c"></span>
+            </label>
+            <label ng-if="!!qw.question.option_d" class="custom-control custom-radio custom-control-inline">
+                <input type="radio" value="4" ng-model="myRate[qw.id]" name="{{qw.id}}" class="custom-control-input">
+                <span class="custom-control-label" ng-bind="qw.question.option_d"></span>
+              </label>
+        </div>
+ </div>
+
+          

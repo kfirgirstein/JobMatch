@@ -1,0 +1,18 @@
+﻿<table class="table table-hover table-sm" style="margin-bottom:10px">
+    <tr data-ng-class="{'table-success': buy==0 }" data-ng-style="{'font-weight':(buy==0 ? 'bold' : 'normal')}">
+        <td>ETH/BTC</td>
+        <td data-ng-bind="(item>0 ? ('$' + (item | number:6)) : '')"></td>
+    </tr>
+    <tr data-ng-class="{'table-success': buy==0 }" data-ng-style="{'font-weight':(buy==0 ? 'bold' : 'normal')}">
+        <td>ETH/USD</td>
+        <td data-ng-bind="(item>0 ? ('$' + (item * $parent.data.BtcUsd | number:2)) : '')"></td>
+    </tr>
+    <tr data-ng-class="{'table-success': item > 0 }" style="font-weight:bold" data-ng-show="buy!=0">
+        <td>Profit</td>
+        <td data-ng-bind="(item>0 ? ('$' + (($parent.module==0 ? 1 : -1)*(item-$parent.dic['Merged'].TrAsk)*$parent.data.BtcUsd*$parent.maxQ | number:0)) : 'NA')"></td>
+    </tr>
+    <tr data-ng-show="buy==0">
+        <td>Volume</td>
+        <td data-ng-bind="('$' + ($parent.a*1000000 | number:0))"></td>
+    </tr>
+</table>

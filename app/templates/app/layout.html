@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{ title }} - My Django Application</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" href="{% static 'app/assets/img/logo-fav.png' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/assets/css/app.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/css/Header.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/assets/lib/perfect-scrollbar/css/perfect-scrollbar.min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/assets/lib/material-design-icons/css/material-design-iconic-font.min.css' %}"/>
+</head>
+  <body class="be-splash-screen">
+      <div class="be-wrapper be-nosidebar-left">
+      <div class="be-content">
+        <div class="main-content container-fluid" >
+                <nav class="navbar navbar-dark bg-dark navbar-expand fixed-top be-top-header">
+                    <div class="container-fluid">
+                        <div class="be-navbar-header">
+                            <a href="/">
+                                <img src="{% static 'app/images/logo.png' %}"/></a>
+                      </div>
+                      <div class="be-right-navbar">
+                        <ul class="nav navbar-nav float-right be-user-nav"></ul>
+                        <ul class="nav navbar-nav float-right be-icons-nav m-1">
+                            <li>
+                                <a class="pr-3 btn btn-lg noBorder" href="{% url 'login' %}">Log In</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'register' %}" class="btn btn-lg btn-secondary">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                        </div>
+                  </nav>
+             <div class="be-content"  ng-app="JobMatch">
+                         <div class="main-content container-fluid">
+{% block content %}{% endblock %}
+                            </div>
+                 </div>
+          </div>
+        </div>
+      </div>
+    <script  src="{% static 'app/assets/lib/jquery/jquery.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/lib/angularjs/angular.min.js'%}" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.js" type="text/javascript"></script>
+    <script src="{% static 'app/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js'%}" type="text/javascript"></script>
+    <script src="{% static 'app/assets/js/app.js'%}" type="text/javascript"></script>
+<script src="{% static 'app/Script/JobMatch.module.js' %}" type="text/javascript"></script>
+<script src="{% static 'app/Script/Services/login.service.js' %}" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	App.init();
+      });
+    </script>
+{% block scripts %}{% endblock %}
+  </body>
+</html>

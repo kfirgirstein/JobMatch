@@ -1,0 +1,11 @@
+﻿{% extends "app/layout.html" %}
+{% block content %}
+ <div class="splash-container" style="min-width:620px">
+     <a href="{%url 'signup' %}"class="btn btn-space btn-secondary btn-big" style="padding-top: 30px;width:300px;height:300px;font-size: 1.6rem"><i style="font-size: 15rem; line-height: 180px;" class="icon mdi mdi mdi-assignment"></i> I am looking for employment </a>
+     <a href="{%url 'signupSuper' %}"class="btn btn-space btn-secondary btn-big" style="padding-top: 30px;width:300px;height:300px;font-size: 1.6rem"><i style="font-size: 15rem; line-height: 180px;" class="icon mdi mdi-pin-account"></i>I am looking for employees </a>
+ </div>
+     {% endblock %}
+{% block scripts %}
+ {% load staticfiles %}
+    <script src="{% static 'app/Script/Controllers/login.controller.js'%}" type="text/javascript"></script>
+{% endblock %}
